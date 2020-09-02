@@ -12,9 +12,9 @@ function displayEvent(){
     var Reg, Fam, AGE, POC, Host;
 
     if(document.getElementById("Reg").checked){
-        Reg=("Registration is required upon the start of the event.");
+        Reg=("Registration is required upon the start of the event");
     } else {
-        Reg=("Registration is not required upon the start of the event.");
+        Reg=("Registration is not required upon the start of the event");
     }
 
     if(document.getElementById("Fam").checked){
