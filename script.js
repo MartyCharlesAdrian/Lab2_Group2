@@ -8,7 +8,7 @@ function displayEvent(){
     var End = (" to "+ document.getElementById("End").value);
     var Post = ("The Posting Date is "+ document.getElementById("Post").value);
     alert("Event Details: \n\n" + Type + "\n" + Name +"\n" + Start + End + "\n" + Post );
-
+    
     var Reg, Fam, AGE, POC, Host;
 
     if(document.getElementById("Reg").checked){
@@ -45,18 +45,4 @@ function displayEvent(){
 
 }
 
-function enableButton1() {
-    if(document.getElementById("Reg").checked){
-    document.getElementById("AGE").disabled = false;
-    } else {
-    document.getElementById("AGE").disabled = true;
-    }
-}
 
-function enableButton2() {
-    if(document.getElementById("POC").checked){
-    document.getElementById("Host").disabled = false;
-    } else {
-        document.getElementById("Host").disabled = true;
-    }
-}
