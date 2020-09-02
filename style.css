@@ -14,7 +14,7 @@ body {
 #save {
     width: 150px;
     height: 42px;
-    color: white;
+    color: black;
     background-color: darkcyan;
     font-family: Lato;
     font-size: large;
@@ -26,7 +26,7 @@ body {
 #cancel {
     width: 150px;
     height: 42px;
-    color: white;
+    color: black;
     background-color: darkcyan;
     font-family: Lato;
     font-size: large;
