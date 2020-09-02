@@ -1,6 +1,6 @@
 body {
   background-color: #33AFA9;
-  font-family: Lato;
+  font-family: 'Advent Pro', sans-serif;
 }
 
 #inner {
@@ -21,6 +21,7 @@ body {
     border: 2px solid black;
     cursor: pointer;
     margin-left: 160px;
+    font-family: 'Advent Pro', sans-serif;
 }
 
 #cancel {
@@ -33,6 +34,7 @@ body {
     border: 2px solid black;
     cursor: pointer;
     margin-left: 150px;
+    font-family: 'Advent Pro', sans-serif;
 }
 
 #save:hover {
